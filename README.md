@@ -1,6 +1,6 @@
-# Hi-Fi TTS Phone Duration Extractor
+# Hi-Fi TTS Phoneme Duration Extractor
 
-This is the phone duration extractor for Hi-Fi TTS dataset. The scripts are modified from the LJSpeech data processing scripts provided in [NEMO](https://github.com/NVIDIA/NeMo/tree/main/scripts/dataset_processing/ljspeech).
+This is the phoneme duration extractor for Hi-Fi TTS dataset. The scripts are modified from the LJSpeech data processing scripts provided in [NEMO](https://github.com/NVIDIA/NeMo/tree/main/scripts/dataset_processing/ljspeech).
 
 ## Reorgnize dataset
 

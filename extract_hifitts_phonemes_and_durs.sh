@@ -140,10 +140,10 @@ python create_token2idx_dict.py \
   --dict_out=$HIFITTS_BASE/mappings.json
 
 # Calculate phoneme durations
-# echo "Calculating phoneme durations..."
-# python calculate_durs.py \
-#   --hifitts_dir=$HIFITTS_BASE \
-#   --mappings=$HIFITTS_BASE/mappings.json \
-#   --sr=$SAMPLE_RATE \
-#   --hop_length=$WINDOW_STRIDE
-# echo "Phoneme durations and tokens written."
+echo "Calculating phoneme durations..."
+python calculate_durs.py \
+  --hifitts_dir=$HIFITTS_BASE \
+  --mappings=$HIFITTS_BASE/mappings.json \
+  --sr=$SAMPLE_RATE \
+  --hop_length=$WINDOW_STRIDE
+echo "Phoneme durations and tokens written."
